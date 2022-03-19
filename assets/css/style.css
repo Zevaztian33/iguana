@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+    font-family: Raleway;
+}
+
+/* Header */
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+header img{
+    width: 100%;
+}
+
+/* Sección 1 */
+.seccion1{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.seccion1 .text1, .seccion1 img{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.seccion1 .text1{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 300;
+}
+.seccion1 img{
+    width: 45%;
+}
+
+/* Sección 2 */
+.seccion2{
+    background: #1e1a13;
+    text-align: center;
+    padding: 40px 0;
+}
+.seccion2 h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.seccion2 .iconos article{
+    display: inline-block;
+    width: 25%;
+}
+.seccion2 i{
+    font-size: 60px;
+}
+.seccion2 p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/* Sección 3 */
+.seccion3{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.seccion3 img{
+    width: 410px;
+    height: 270px;
+    padding: 0 10px;
+}
+/* Footer */
+footer{
+    background: #1e1a13;
+    text-align: center;
+    padding: 30px 0;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 300;
+}
